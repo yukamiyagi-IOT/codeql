@@ -1,6 +1,6 @@
 def load_json(file_path):
     """Load JSON data from a file."""
-    try:
+    try
         with open(file_path, "r") as f:
             return json.load(f)
     except Exception as e:
